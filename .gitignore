@@ -6,7 +6,7 @@ __pycache__
 # Env
 .env
 myvenv/
-venv/
+/venv/
 
 
 # Database
@@ -31,3 +31,4 @@ $RECYCLE.BIN/
 .vscode/
 .history/
 *.code-workspace
+/venv/
