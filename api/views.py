@@ -10,5 +10,5 @@ from blog import models
 class PostViewSet(viewsets.ModelViewSet):
     queryset = models.Post.objects.filter(status='Published').order_by('-published_date')
     serializer_class = serializers.PostFetchSerializer
-    #permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
 
