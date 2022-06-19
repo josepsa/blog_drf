@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'api',
     'corsheaders',
+    'registration',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +137,7 @@ CORS_ALLOW_CREDENTIALS = True
 #     "http://localhost:8080",
 #     "http://127.0.0.1:9000",
 # ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = Path(BASE_DIR / 'media')
+
