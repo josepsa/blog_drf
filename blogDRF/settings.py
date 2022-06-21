@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'api',
     'corsheaders',
     'registration',
+    #'rest_framework_simplejwt.token_blacklist',
 ]
 
 MIDDLEWARE = [
@@ -134,8 +135,9 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
 # CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:8080",
-#     "http://127.0.0.1:9000",
+#     "http://localhost:8000",
+#     "http://127.0.0.1:8000",
+#     "https://blogdrf.pythonanywhere.com/"
 # ]
 
 MEDIA_URL = '/media/'
@@ -152,5 +154,8 @@ REST_FRAMEWORK = {
 
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
+    'ACCESS_TOKEN_LIFETIME': timedelta(hours=12),
+    # 'REFRESH_TOKEN_LIFETIME': timedelta(days=15),
+    # 'ROTATE_REFRESH_TOKENS': False,
+    # 'BLACKLIST_AFTER_ROTATION': False
 }
