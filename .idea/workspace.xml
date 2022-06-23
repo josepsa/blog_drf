@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3283c186-6fa4-4bc9-a248-045d718f6f95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/templates/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogDRF/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogDRF/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogDRF/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogDRF/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +45,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\pythonProject\blogDRF\blog" />
+      <recent name="D:\OneDrive\pythonProject\blogDRF\blog\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OneDrive\pythonProject\blogDRF\blogDRF" />
     </key>

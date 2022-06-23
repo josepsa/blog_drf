@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-
+# from blog.views import IndexTemplateView
 
 
 urlpatterns = [
@@ -23,5 +23,5 @@ urlpatterns = [
     path('api/', include('api.urls')),
     #path('login/', include('rest_framework.urls', namespace='rest_framework')),
     path('user/',include('registration.urls')),
-
+    # path('',IndexTemplateView.as_view(), name="entry-point")
 ]
